@@ -1,5 +1,5 @@
 var igToken;
-let requestURL = "./data.json";
+let requestURL = "https://dparchitects.github.io/js/data.json";
 let request = new XMLHttpRequest();
 request.open("GET", requestURL);
 request.responseType = "json";
