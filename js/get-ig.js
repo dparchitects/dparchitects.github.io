@@ -1,5 +1,5 @@
 var igToken;
-let requestURL = "./superheroes.json";
+let requestURL = "./data.json";
 let request = new XMLHttpRequest();
 request.open("GET", requestURL);
 request.responseType = "json";
